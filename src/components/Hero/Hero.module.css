@@ -95,6 +95,14 @@
     .content {
         align-items: center;
     }
+
+    .content h1 {
+        font-size : 52px;
+    }
+    .content p {
+
+        font-size: 20px;
+    }
     .heroImg {
         width: 100%;
     }
