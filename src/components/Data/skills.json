@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+  {
+    "id": 2,
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "id": 3,
+    "title": "React",
+    "imageSrc": "skills/react.png"
+  },
+  {
+    "id": 4,
+    "title": "Node",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "id": 5,
+    "title": "Sass",
+    "imageSrc": "skills/Sass_logo.png"
+  },
+  {
+    "id": 6,
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "id": 7,
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
+  }
+]

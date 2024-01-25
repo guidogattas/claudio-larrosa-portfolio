@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "OMG",
+    "imageSrc": "clients/OMG.png"
+  },
+  {
+    "id": 2,
+    "title": "WPP",
+    "imageSrc": "clients/WPP_plc-Logo.png"
+  },
+  {
+    "id": 3,
+    "title": "GS&P",
+    "imageSrc": "clients/gs&p.png"
+  },
+  {
+    "id": 4,
+    "title": "AKQA",
+    "imageSrc": "clients/AKQA-Logo.png"
+  },
+  {
+    "id": 5,
+    "title": "Gusto",
+    "imageSrc": "clients/gusto.png"
+  },
+  {
+    "id": 6,
+    "title": "Milestone",
+    "imageSrc": "clients/Milestone_Systems_Logo.png"
+  },
+  {
+    "id": 7,
+    "title": "Human Interest",
+    "imageSrc": "clients/hi.png"
+  }
+]
