@@ -52,11 +52,27 @@
     gap: 23px;
   }
 
+  .container h2 {
+    font-size: 40px;
+  }
+
+  .container p {
+    margin-top: 10px;
+    font-size: 28px;
+  }
+
+  .container a {
+    font-size: 20px;
+  }
+
+
+
   .text {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+
   }
 
   .links {
