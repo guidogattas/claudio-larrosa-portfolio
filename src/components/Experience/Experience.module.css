@@ -109,6 +109,10 @@
 }
 
 @media screen and (max-width: 830px) {
+  .container {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
   .content {
     flex-direction: column;
     align-items: center;
@@ -122,7 +126,19 @@
   }
 
   .history {
+    margin-left: 0;
+    margin-top: 20px;
     width: 100%;
     gap: 9px;
+  }
+
+ .historyItemDetails h3 {
+    font-size: 24px;
+  }
+  .historyItemDetails p{
+    font-size: 20px;
+  }
+  .historyItemDetails li{
+    font-size: 18px;
   }
 }

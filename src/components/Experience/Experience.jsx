@@ -1,4 +1,3 @@
-import React from 'react'
 import clients from "../Data/clients.json"
 import history from "../Data/history.json"
 import { getImageUrl } from '../../utils'
