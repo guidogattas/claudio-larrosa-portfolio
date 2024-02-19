@@ -35,9 +35,9 @@ export const About = () => {
                     />
                     <AboutCard
                         iconImg="about/icons8-08-onboard-58.png" title="Business Relations" description={<div>
-                       <p> Plan for operations</p>
-                       <p>
-                        Deep understanding of how to integrate and implement IT Operations withe the other parts of the business, including time responses and cost efficiency</p>
+                            <p> Plan for business operations and continuity</p>
+                            <p>
+                                I possess a Deep understanding of integrating and implementing IT Operations with the other parts of the business, including time responses and cost efficiency.</p>
                         </div>}
                     />
 

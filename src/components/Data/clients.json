@@ -1,10 +1,5 @@
 [
   {
-    "id": 1,
-    "title": "OMG",
-    "imageSrc": "clients/OMG.png"
-  },
-  {
     "id": 2,
     "title": "WPP",
     "imageSrc": "clients/WPP_plc-Logo.png"

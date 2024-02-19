@@ -12,7 +12,7 @@ export const Footer = () => {
       <ul className={styles.links}>
         <li className={styles.link}>
           <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:myemail@email.com">claudio.larrosasm@gmail.com</a>
+          <a href="mailto:claudio.larrosasm@gmail.com">claudio.larrosasm@gmail.com</a>
         </li>
         <li className={styles.link}>
           <img
