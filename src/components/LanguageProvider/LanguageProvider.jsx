@@ -4,7 +4,7 @@ export const LanguageContext = createContext();
 
 export const LanguageProvider = ({ children }) => {
 
-    const [language, setLanguage] = useState('es');
+    const [language, setLanguage] = useState('en');
 
     const changeToEnglish = () => {
         setLanguage('en');
