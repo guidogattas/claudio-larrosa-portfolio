@@ -1,0 +1,42 @@
+[
+  {
+    "role": "Especialista Sr. en Sistemas IT",
+    "organisation": "Human Interest",
+    "startDate": "Enero, 2021",
+    "endDate": "Presente",
+    "experiences": [
+      "Ascendido a Gerente de Operaciones IT y Dispositivos en Abril de 2022",
+      "Supervisar la gestión del ciclo de vida del hardware IT (computadoras, periféricos, tablets, etc.) desde la compra hasta su fin de vida.",
+      "Gestión de Compras - Desarrollo y coordinación de soluciones para nuevos empleados remotos (Amazon Business/CDW).",
+      "Gestión de redes y AV: diseño, implementación, mantenimiento y seguridad de toda la infraestructura corporativa.",
+      "Liderazgo y planificación de proyectos. Expansiones y nuevas oficinas."
+    ],
+    "imageSrc": "clients/hi.png"
+  },
+  {
+    "role": "Soporte IT",
+    "organisation": "Gusto",
+    "startDate": "Julio, 2019",
+    "endDate": "Enero, 2021",
+    "experiences": [
+      "Instalación, actualización y soporte de todas las desktops/laptops de la empresa, tanto presencial como remotamente.",
+      "VOIP, impresoras y otros dispositivos tecnológicos de los usuarios (principalmente en un entorno Apple).",
+      "Integración y capacitación de nuevos empleados en aplicaciones IT y prácticas de seguridad.",
+      "Implementación de Gestión de Activos."
+    ],
+    "imageSrc": "clients/gusto.png"
+  },
+  {
+    "role": "Analista de Soporte IT",
+    "organisation": "AKQA",
+    "startDate": "Abril, 2017",
+    "endDate": "Julio, 2019",
+    "experiences": [
+      "Resolución de problemas y soporte técnico de hardware, software y redes en Mac y PC.",
+      "Uso del sistema de tickets ZenDesk para la gestión de solicitudes de helpdesk interno.",
+      "Imágenes, despliegue y seguimiento del hardware Mac y PC.",
+      "Soporte AV para eventos de la empresa."
+    ],
+    "imageSrc": "clients/AKQA-Logo.png"
+  }
+]

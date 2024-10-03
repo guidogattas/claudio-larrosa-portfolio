@@ -1,12 +1,19 @@
-import clients from "../Data/clients.json"
-import history from "../Data/history.json"
-import { getImageUrl } from '../../utils'
-import styles from './Experience.module.css'
+import { useContext } from 'react';
+import clients from "../Data/clients.json";
+import historyEn from "../Data/historyEn.json";
+import historySp from "../Data/historySp.json";
+import { getImageUrl } from '../../utils';
+import { LanguageContext } from '../LanguageProvider/LanguageProvider';
+import styles from './Experience.module.css';
 
 export const Experience = () => {
+    const { language } = useContext(LanguageContext);
+
+    const history = language === 'es' ? historySp : historyEn;
+
     return (
         <section id='experience' className={styles.container}>
-            <h2 className={styles.title}>CLIENTS / EXPERIENCE</h2>
+            <h2 className={styles.title}>CLIENTES / EXPERIENCIA</h2>
             <div className={styles.content}>
                 <ul className={styles.clients}>
                     {clients.map((client) => {
@@ -17,7 +24,7 @@ export const Experience = () => {
                                 </div>
                                 <p>{client.title}</p>
                             </li>
-                        )
+                        );
                     })}
                 </ul>
                 <ul className={styles.history}>
@@ -42,8 +49,7 @@ export const Experience = () => {
                         );
                     })}
                 </ul>
-
             </div>
         </section>
-    )
-}
+    );
+};
