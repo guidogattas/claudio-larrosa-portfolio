@@ -3,7 +3,7 @@ import styles from './Navbar.module.css';
 import { getImageUrl } from '../../utils';
 import { LanguageContext } from '../LanguageProvider/LanguageProvider';
 import spainFlag from '../../../assets/img/spain.png';
-import ukFlag from '../../../assets/img/united-kingdom.png';
+import usaFlag from '../../../assets/img/united-states.png';
 
 
 export const Navbar = () => {
@@ -18,12 +18,12 @@ export const Navbar = () => {
         <button
           onClick={changeToSpanish}
         >
-          <img src={spainFlag} alt="uk flag" />
+          <img src={spainFlag} alt="spain flag" />
         </button>
         <button
           onClick={changeToEnglish}
         >
-          <img src={ukFlag} alt="uk flag" />
+          <img src={usaFlag} alt="usa flag" />
         </button>
       </div>
       <div className={styles.menu}>

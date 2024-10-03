@@ -31,6 +31,7 @@
   flex-wrap: wrap;
   gap: 37px;
   justify-content: center;
+
 }
 
 .client {
@@ -39,6 +40,11 @@
   align-items: center;
   gap: 11px;
   justify-content: center;
+  transition: 0.3s ease-in-out;
+}
+
+.client:hover{
+transform: scale(1.2);
 }
 
 .clientImageContainer {
@@ -49,12 +55,14 @@
   justify-content: center;
   width: 120px;
   height: 120px;
+
 }
 
 .clientImageContainer img {
   width: 75px;
   -webkit-filter: drop-shadow(5px 5px 25px white);
   filter: drop-shadow(5px 5px 25px white);
+  
 }
 
 
@@ -69,6 +77,7 @@
   display: flex;
   flex-direction: column;
   gap: 40px;
+  
 }
 
 .historyItem {
@@ -80,10 +89,12 @@
   background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
   border-radius: 10px;
   padding: 24px;
+
 }
 
 .historyItem img {
   width: 100px;
+  
 }
 
 .historyItemDetails {

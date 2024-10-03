@@ -26,7 +26,7 @@ export const Hero = () => {
             <div className={styles.content}>
                 <h1 className={styles.title}>{title}</h1>
                 <p className={styles.description}>{description}</p>
-                <a href="mailto:claudio.larrosasm@gmail.com" className={styles.contact}>{contact}</a>
+                <a href="mailto:claudio.larrosasm@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.contact}>{contact}</a>
             </div>
             <img src={getImageUrl("img/Claudio.png")} alt="hero image of me" className={styles.heroImg} />
             <div className={styles.topBlur} />
