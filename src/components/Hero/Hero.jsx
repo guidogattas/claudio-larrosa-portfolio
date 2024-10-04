@@ -14,7 +14,7 @@ export const Hero = () => {
         },
         es: {
             title: "Hola, soy Claudio",
-            description: `Desde que era niño y tuve mi primera computadora personal, siempre me interesó saber qué "magia" hacía que el Prince of Persia apareciera en la pantalla y me brindara horas de entretenimiento. Soy curioso por naturaleza, así que fue un proceso natural. Crecer en Argentina hacía casi obligatorio saber reparar tus propios electrónicos, ya que la tecnología es costosa y no siempre fácil de conseguir. Conseguí mi primer trabajo en soporte en 2007 con una pequeña empresa que tenía, haciendo consultoría para empresas. Cuando me mudé a Estados Unidos en 2013, se me abrieron las puertas a un entorno más corporativo, con herramientas con las que sigo trabajando hasta el día de hoy.`,
+            description: `Desde que era niño y tuve mi primera computadora personal, siempre me interesó saber qué "magia" hacía que el Prince of Persia apareciera en la pantalla y me brindara horas de entretenimiento. Soy curioso por naturaleza, así que fue un proceso natural. Crecer en Argentina hacía casi obligatorio saber reparar tus propios electrónicos, ya que la tecnología es costosa y no siempre fácil de conseguir. Obtuve mi primer trabajo en soporte en 2007 con una pequeña pyme que tenía, haciendo consultoría para empresas.. Cuando me mudé a Estados Unidos en 2013, se me abrieron las puertas a un entorno más corporativo, con herramientas con las que sigo trabajando hasta el día de hoy.`,
             contact: "Contáctame",
         }
     };
@@ -28,7 +28,7 @@ export const Hero = () => {
                 <p className={styles.description}>{description}</p>
                 <a href="mailto:claudio.larrosasm@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.contact}>{contact}</a>
             </div>
-            <img src={getImageUrl("img/Claudio.png")} alt="hero image of me" className={styles.heroImg} />
+            <img src={getImageUrl("img/Claudio-new.png")} alt="hero image of me" className={styles.heroImg} />
             <div className={styles.topBlur} />
             <div className={styles.bottomBlur}></div>
         </section>
