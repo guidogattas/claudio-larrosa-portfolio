@@ -39,7 +39,7 @@ export const Footer = () => {
             src={getImageUrl('contact/linkedinIcon.png')}
             alt="LinkedIn icon"
           />
-          <a href="https://www.linkedin.com/in/claudio-larrosa-san-martin-1a891116/">{linkedin}</a>
+          <a href="https://www.linkedin.com/in/claudio-larrosa-san-martin-1a891116/" target="_blank">{linkedin}</a>
         </li>
       </ul>
     </footer>
