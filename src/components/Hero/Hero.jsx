@@ -9,23 +9,29 @@ export const Hero = () => {
     const textContent = {
         en: {
             title: "Hi, I'm Claudio",
-            description: `Since I was a child and got my first personal computer, I have always been interested in knowing what "magic" made my Prince of Persia show up on the screen and gave me hours of entertainment. I'm curious by nature, so it was a natural process. Growing up in Argentina, it was mandatory to be able to repair your electronics since tech is expensive and not always easy to get. I got my first gig in support back in 2007 with a small enterprise I used to own, doing consulting for companies. When I moved to the United States in 2013, it opened the doors to a more corporate array of tools, which I am still working with today.`,
-            contact: "Contact Me",
+            description1: `My interest in technology began at a young age when I first got my hands on a personal computer. I was fascinated by the "magic" that brought games like Prince of Persia to life on the screen. This curiosity, coupled with the necessity of being able to repair electronics in Argentina due to their cost and scarcity, led me to pursue a career in technology. `,
+            description2:
+                `I started my professional journey in 2007, providing consulting services to companies through my own small enterprise. Relocating to the United States in 2013 provided me with access to a wider range of corporate tools and technologies, which I continue to work with today.`,
+            contact: "Contact Me"
         },
         es: {
             title: "Hola, soy Claudio",
-            description: `Desde que era niño y tuve mi primera computadora personal, siempre me interesó saber qué "magia" hacía que el Prince of Persia apareciera en la pantalla y me brindara horas de entretenimiento. Soy curioso por naturaleza, así que fue un proceso natural. Crecer en Argentina hacía casi obligatorio saber reparar tus propios electrónicos, ya que la tecnología es costosa y no siempre fácil de conseguir. Obtuve mi primer trabajo en soporte en 2007 con una pequeña pyme que tenía, haciendo consultoría para empresas.. Cuando me mudé a Estados Unidos en 2013, se me abrieron las puertas a un entorno más corporativo, con herramientas con las que sigo trabajando hasta el día de hoy.`,
-            contact: "Contáctame",
+            description1: `Mi interés por la tecnología comenzó desde muy joven, cuando tuve en mis manos una computadora personal por primera vez. Me fascinaba la "magia" que hacía que juegos como Prince of Persia cobraran vida en la pantalla. Esta curiosidad, junto con la necesidad de aprender a reparar electrónicos en Argentina debido a su alto costo y escasez, me llevó a seguir una carrera en tecnología.`,
+            description2: `
+                Inicié mi camino profesional en 2007, brindando servicios de consultoría a empresas a través de mi propia pequeña empresa. Al mudarme a Estados Unidos en 2013, tuve acceso a una mayor variedad de herramientas y tecnologías corporativas, con las que sigo trabajando hasta el día de hoy.`,
+            contact: "Contactame"
         }
     };
 
-    const { title, description, contact } = textContent[language];
+
+    const { title, description1, description2, contact } = textContent[language];
 
     return (
         <section className={styles.container}>
             <div className={styles.content}>
                 <h1 className={styles.title}>{title}</h1>
-                <p className={styles.description}>{description}</p>
+                <p className={styles.description}>{description1}</p>
+                <p className={styles.description}>{description2}</p>
                 <a href="mailto:claudio.larrosasm@gmail.com" target="_blank" rel="noopener noreferrer" className={styles.contact}>{contact}</a>
             </div>
             <img src={getImageUrl("img/Claudio-new.png")} alt="hero image of me" className={styles.heroImg} />
